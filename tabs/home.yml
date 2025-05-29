@@ -1,0 +1,25 @@
+- name: Home
+  # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
+  # hide-desktop-navigation: true
+  columns:
+    - size: small
+      widgets:
+        - $include: ../widgets/rss.yml
+        - $include: ../widgets/twitch-channels.yml
+        - $include: ../widgets/twitch-top-games.yml
+
+    - size: full
+      widgets:
+        - $include: ../widgets/search.yml
+        - $include: ../widgets/group.yml
+        - $include: ../widgets/videos.yml
+        - $include: ../widgets/reddit.yml
+
+    - size: small
+      widgets:
+        - type: calendar
+          title: Calendrier
+          first-day-of-week: monday
+        - $include: ../widgets/weather.yml
+        - $include: ../widgets/markets.yml
+        - $include: ../widgets/releases.yml

@@ -1,0 +1,14 @@
+- type: releases
+  cache: 1d
+  token: ${GITHUB}
+  repositories:
+    - glanceapp/glance
+    - gethomepage/homepage
+    - SpotX-Official/SpotX
+    - LizardByte/Sunshine
+    - moonlight-stream/moonlight-qt
+    - ValveSoftware/Proton
+    - louislam/uptime-kuma
+    - donaldzou/WGDashboard
+    - suitenumerique/docs
+    - TechnitiumSoftware/DnsServer

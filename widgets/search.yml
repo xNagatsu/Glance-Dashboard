@@ -1,0 +1,7 @@
+- type: search
+  search-engine: https://www.startpage.com/sp/search?query={QUERY}
+  new-tab: true
+  bangs:
+  - title: YouTube
+    shortcut: "!yt"
+    url: https://www.youtube.com/results?search_query={QUERY}

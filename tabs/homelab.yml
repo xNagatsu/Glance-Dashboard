@@ -1,0 +1,13 @@
+- name: HomeLab
+  columns:
+      - size: small
+        widgets:
+        - $include: ../widgets/change_detection.yml
+
+      - size: full
+        widgets:
+        - $include: ../widgets/monitor.yml
+
+      - size: small
+        widgets:
+        - $include: ../widgets/server-stats.yml

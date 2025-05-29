@@ -1,0 +1,7 @@
+- type: twitch-top-games
+  exclude:
+  - just-chatting
+  - pools-hot-tubs-and-beaches
+  - music
+  - art
+  - asmr

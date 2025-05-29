@@ -1,0 +1,14 @@
+- type: group
+  widgets:
+    - type: reddit
+      subreddit: technology
+      show-thumbnails: true
+    - type: reddit
+      subreddit: selfhosted
+      show-thumbnails: true
+    - type: reddit
+      subreddit: Damnthatsinteresting
+      show-thumbnails: true
+    - type: reddit
+      subreddit: interestingasfuck
+      show-thumbnails: true

@@ -1,0 +1,24 @@
+- type: rss
+  title: RSS
+  limit: 30
+  collapse-after: 3
+  cache: 12h
+  feeds:
+    - url: https://selfh.st/rss/
+      title: selfh.st
+      limit: 4
+    - url: https://korben.info/feed
+      title: Korben
+      limit: 4
+    - url: https://feeds.feedburner.com/cowcotland
+      title: Cowcotland
+      limit: 4
+    - url: https://videocardz.com/rss-feed
+      tile: VideoCardz
+      limit: 4
+    - url: https://www.ginjfo.com/actualites/feed
+      title: Ginjfo
+      limit: 4
+    - url: https://www.techpowerup.com/rss/news
+      title: TechPowerUp
+      limit: 4

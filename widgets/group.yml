@@ -1,0 +1,4 @@
+- type: group
+  widgets:
+    - type: hacker-news
+    - type: lobsters

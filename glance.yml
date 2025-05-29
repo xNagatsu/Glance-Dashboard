@@ -1,0 +1,18 @@
+pages:
+    - $include: ./tabs/home.yml
+    - $include: ./tabs/homelab.yml
+    - $include: ./tabs/details.yml
+  # Add more pages here:
+  # - name: Your page name
+  #   columns:
+  #     - size: small
+  #       widgets:
+  #         # Add widgets here
+
+  #     - size: full
+  #       widgets:
+  #         # Add widgets here
+
+  #     - size: small
+  #       widgets:
+  #         # Add widgets here
