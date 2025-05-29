@@ -144,3 +144,5 @@ systemctl restart glance
 
 <img width="1168" alt="{07947CA6-D86B-4427-852D-711551917B28}" src="https://github.com/user-attachments/assets/185af1e5-6415-482d-a332-011f235905d0" />
 
+Le widget proxmox2.yml proviens de @AyLabsCode merci à lui ! Sa vidéo sur le sujet m'a poussé à découper mon glance.yml et c'est un vrai plaisir pour la modularité !
+
