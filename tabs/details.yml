@@ -1,4 +1,4 @@
-- name: Détails
+- name: Details
   columns:
     - size: small
       widgets:
@@ -9,6 +9,7 @@
       widgets:
       - $include: ../widgets/technitium_1.yml
       - $include: ../widgets/technitium_2.yml
+      - $include: ../widgets/containers.yml
 
 
     - size: small
