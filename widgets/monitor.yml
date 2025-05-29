@@ -1,0 +1,33 @@
+- type: monitor
+  cache: 1m
+  title: Services
+  sites:
+  - title: Proxmox
+    url: https://10.7.91.1:8006
+    allow-insecure: yes
+    icon: di:proxmox
+  - title: Portainer
+    url: https://10.7.91.5:9443
+    allow-insecure: yes
+    icon: di:portainer
+  - title: ChangeDetection.io
+    url: http://10.7.91.5:5000
+    icon: di:changedetection
+  - title: Technitium
+    url: http://10.7.91.2:5380
+    icon: di:technitium.png
+  - title: Technitium Backup
+    url: http://10.7.91.3:5380
+    icon: di:technitium.png
+  - title: CasaOS
+    url: http://10.7.91.4:8080
+    icon: di:casaos
+  - title: Uptime Kuma
+    url: http://10.7.91.5:3001
+    icon: di:uptime-kuma
+  - title: Nginx Proxy Manager
+    url: http://10.7.91.4:81
+    icon: di:nginx-proxy-manager
+  - title: WGDashboard
+    url: http://10.7.91.6:10086
+    icon: di:wireguard

@@ -1,0 +1,18 @@
+- name: Détails
+  columns:
+    - size: small
+      widgets:
+      - $include: ../widgets/proxmox2.yml
+      - $include: ../widgets/kuma.yml
+
+    - size: full
+      widgets:
+      - $include: ../widgets/technitium_1.yml
+      - $include: ../widgets/technitium_2.yml
+
+
+    - size: small
+      widgets:
+      - $include: ../widgets/wud.yml
+      - $include: ../widgets/dns-stats_1.yml
+      - $include: ../widgets/dns-stats_2.yml

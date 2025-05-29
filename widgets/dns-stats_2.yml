@@ -1,0 +1,5 @@
+- type: dns-stats
+  title: Technitium DNS 2 Stats
+  service: technitium
+  token: ${TECHNITIUM_2}
+  url: http://10.7.91.3:5380
